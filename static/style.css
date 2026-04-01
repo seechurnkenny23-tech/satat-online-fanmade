@@ -577,12 +577,3 @@ h2 {
   }
 }
 
-.legal-note {
-  color: var(--muted);
-  line-height: 1.55;
-  font-size: 0.95rem;
-}
-
-.legal-panel p {
-  margin: 8px 0 0;
-}
