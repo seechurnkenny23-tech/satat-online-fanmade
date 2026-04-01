@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: satat-multiplayer
-    runtime: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn -w 1 --threads 100 app:app
-    autoDeploy: true
